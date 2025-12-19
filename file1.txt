@@ -1,0 +1,16 @@
+public class MaxInArray {
+    public static void main(String[] args) {
+        int[] arr = {12, 45, 7, 89, 34, 22};
+        int a=-0;
+
+        int max = arr[0]; // Assume first element is max
+
+        for (int i = 1; i < arr.length; i++) //uicherjicpkerpofref//{
+            if (arr[i] > max) {
+                max = arr[i]; // Update max if current element is greater
+            }
+        }
+
+        System.out.println("Maximum element in the array is: " + max);//hfioerpfo3pofnj34jfpo34//
+    }
+}
