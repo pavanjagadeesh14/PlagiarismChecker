@@ -8,13 +8,13 @@ public class DatabaseManager {
     private static final String URL =
         "jdbc:mysql://localhost:3306/plagiarism_db?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "oracle"; // CHANGE THIS
+    private static final String PASSWORD = "oracle"; 
 
     // INSERT RESULT
     public static void insertResult(String file1, String file2,
                                     double percentage, String verdict) {
         try {
-            // 🔴 THIS LINE IS CRITICAL
+            
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
@@ -42,7 +42,7 @@ public class DatabaseManager {
     // FETCH HISTORY
     public static void showHistory() {
         try {
-            // 🔴 THIS LINE IS CRITICAL
+            
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
