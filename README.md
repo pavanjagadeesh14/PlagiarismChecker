@@ -1,20 +1,20 @@
 # File Similarity Analyzer (Java)
 
-A Java-based File Similarity Analyzer that compares two text files using the **Jaccard Similarity algorithm** to calculate similarity percentage.
+The File Similarity Analyzer is a Java-based application that compares two text files and calculates their similarity percentage.  
+It is designed as a foundational module for plagiarism detection systems and document comparison tools.
 
-The project demonstrates core Java programming, data structures, file handling, algorithmic thinking, and database integration using JDBC.
+The project also stores comparison history in a MySQL database for future reference.
 
 ---
 
 ## 🚀 Features
 
-- Compares two text files for similarity percentage
-- Uses **Jaccard Similarity Algorithm** for comparison
+- Compare two text files for similarity
 - Calculates similarity percentage
-- Displays verdict based on similarity threshold
-- Stores comparison results in a MySQL database
-- Maintains history of previous files checks
-- Simple console-based execution
+- Classifies results as Original / Plagiarized based on threshold
+- Stores comparison results in MySQL
+- Displays previous comparison history
+- Command-line based interface
 
 ---
 
