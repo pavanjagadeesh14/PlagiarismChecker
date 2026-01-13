@@ -1,6 +1,6 @@
-# Plagiarism Checker (Java)
+# File Similarity Analyzer (Java)
 
-A Java-based plagiarism detection system that compares two text files using the **Jaccard Similarity algorithm** to calculate similarity percentage and determine plagiarism.
+A Java-based File Similarity Analyzer that compares two text files using the **Jaccard Similarity algorithm** to calculate similarity percentage.
 
 The project demonstrates core Java programming, data structures, file handling, algorithmic thinking, and database integration using JDBC.
 
@@ -8,12 +8,12 @@ The project demonstrates core Java programming, data structures, file handling, 
 
 ## 🚀 Features
 
-- Compares two text files for plagiarism
+- Compares two text files for similarity percentage
 - Uses **Jaccard Similarity Algorithm** for comparison
-- Calculates plagiarism percentage
+- Calculates similarity percentage
 - Displays verdict based on similarity threshold
 - Stores comparison results in a MySQL database
-- Maintains history of previous plagiarism checks
+- Maintains history of previous files checks
 - Simple console-based execution
 
 ---
@@ -30,7 +30,7 @@ In this project:
 - Intersection and union of word sets are calculated
 - Similarity percentage is derived from the Jaccard score
 
-This approach is efficient and commonly used in plagiarism detection systems.
+This approach is efficient and commonly used in File Similarity Analyzer.
 
 ---
 
@@ -95,7 +95,7 @@ GitHub: https://github.com/pavanjagadeesh14
 
 ## ⭐ Project Highlights
 
-- Implements a real plagiarism detection algorithm
+- Implements a real File Similarity Analyzer.
 - Demonstrates strong Java and algorithm fundamentals
 - Uses database to persist comparison history
 - Clean, readable, and maintainable code structure
